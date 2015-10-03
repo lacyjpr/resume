@@ -37,10 +37,13 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 	the DOM. jQuery is fast and easy to use, but it doesn't do anything
 	you can't accomplish with vanilla (regular) JavaScript.
 	-->
-	<script src="js/jQuery.js"></script>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 	<!-- More on helper.js in the class -->
 	<script src="js/helper.js"></script>
+
+	<!-- Menu script -->
+	<script src="js/menu.js"></script>
 
 	<!--
 	Uncomment the <script> tag below when you're ready to add an interactive
@@ -52,6 +55,20 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 </head>
 <body>
 	<div id="main">
+
+<!-- Menu borrowed from http://designreviver.com/tutorials/jquery-css-example-dropdown-menu/ -->
+<ul id="dropdown">
+	<li class="headlink">
+		<a href="index.html?dropdown">Navigation</a>
+		<ul>
+			<li><a href="#header">Bio</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#workExperience">Work Experience</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#mapDiv">Where I've Lived and Worked</a></li>
+		</ul>
+	</li>
+</ul>
 <!-- You'll be deleting this line in the course -->
 
 		<!--
