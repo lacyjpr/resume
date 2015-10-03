@@ -1,6 +1,6 @@
 var bio = {
-    "name": "Jean-Paul Lacy ",
-    "role": "Web Developer ",
+    "name": "Jean-Paul Lacy",
+    "role": "Web Developer",
     "contacts": {
         "mobile": "336-408-5256",
         "email": "lacyjpr@gmail.com",
@@ -8,7 +8,7 @@ var bio = {
         "twitter": "@lacyjpr",
         "location": "Newport, OR"
     },
-    "welcomeMessage": "Problem Solver ",
+    "welcomeMessage": "Problem Solver",
     "skills": ["HTML", "CSS", "Managing", "Coaching", "Teaching", "Mentoring", "Customer Service"],
     "bioPic": "images/JPLacy.jpg"
 }
