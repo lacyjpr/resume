@@ -155,10 +155,12 @@ a {
 	padding: 10px;
 }
 
-#projects2{
+#projects2 {
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
+	padding: 0;
 }
 
 .center-content {
