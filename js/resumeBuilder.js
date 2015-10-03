@@ -137,8 +137,6 @@ var education = {
         }
     ]
 }
-// var formattedEmployerTitle = formattedEmployer + formattedTitle;
-//      $(".work-entry:last").append(formattedEmployerTitle);
 
 education.display = function (){
     for(school in education.schools) {
