@@ -24,6 +24,30 @@ h6 {
 	padding: 0 5%;
 }
 
+.ui-menu {
+	width: 150px;
+	background: #484848;
+	color: white;
+}
+
+.ui-menu > li {
+	background: #484848;
+	color: white;
+}
+.ui-menu > li > a:link {
+	color: white;
+}
+
+.ui-menu > li > a:hover {
+	color: black;
+}
+
+.ui-menu > li > a:visited {
+	color: #008b8b;
+}
+
+}
+
 #map {
 	display: block;
 	height: 100%;
@@ -38,7 +62,6 @@ h6 {
 
 h1 {
 	font-size: 40px;
-	/*color: #f5a623;*/
 	color: #008b8b;
 	line-height: 48px;
 	display: inline;
@@ -119,7 +142,7 @@ a {
 
 .blue {
 	/*background-color: #f5ae23;*/
-	background-color: #008b8b
+	background-color: #008b8b;
 }
 
 .blue-text {
