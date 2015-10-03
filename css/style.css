@@ -39,7 +39,7 @@ h6 {
 h1 {
 	font-size: 40px;
 	/*color: #f5a623;*/
-	color: #001a57;
+	color: #008b8b;
 	line-height: 48px;
 	display: inline;
 }
@@ -113,17 +113,17 @@ a {
 }
 
 #skills-h3 {
-	color: #001a57;
+	color: #008b8b;
 	display: none;
 }
 
 .blue {
 	/*background-color: #f5ae23;*/
-	background-color: #001a57
+	background-color: #008b8b
 }
 
 .blue-text {
-	color: #001a57;
+	color: #008b8b;
 }
 
 .white-text {
@@ -159,8 +159,11 @@ a {
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
 	padding: 0;
+}
+
+.project-entry {
+	width: 35%;
 }
 
 .center-content {
