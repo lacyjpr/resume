@@ -13,6 +13,7 @@ var bio = {
     "bioPic": "images/JPLacy.jpg"
 }
 
+//Append the bio object to index.html via helper.js
 bio.display = function () {
     var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
     $("#header").prepend(formattedRole);
@@ -90,6 +91,7 @@ var work = {
   ]
 }
 
+//Append the work object to index.html via helper.js
 work.display = function () {
     for(job in work.jobs) {
         $("#workExperience").append(HTMLworkStart);
@@ -138,6 +140,7 @@ var education = {
     ]
 }
 
+//Append the education object to index.html via helper.js
 education.display = function (){
     for(school in education.schools) {
         $("#education").append(HTMLschoolStart);
@@ -150,8 +153,9 @@ education.display = function (){
         var formattedLocation = HTMLschoolLocation.replace("%data%", education.schools[school].location);
         $(".education-entry:last").append(formattedLocation);
         if (education.schools[school].majors.length > 0) {
-            for (major in education.schools[school].majors) {
-                var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors[major]);
+            var len = education.schools[school].majors.length;
+            for (var i = 0; i < len; i++) {
+                var formattedMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors[i]);
                 $(".education-entry:last").append(formattedMajor);
             }
         }
@@ -187,6 +191,7 @@ var projects = {
     ]
 }
 
+//Append the projects object to index.html via helper.js
 projects.display = function (){
         for(project in projects.projects) {
             $("#projects2").append(HTMLprojectStart);
@@ -197,14 +202,16 @@ projects.display = function (){
             var formattedDescription = HTMLprojectDescription.replace("%data%", projects.projects[project].description);
             $(".project-entry:last").append(formattedDescription);
             if (projects.projects[project].images.length > 0) {
-                for (image in projects.projects[project].images) {
-                        var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[image]);
-                        $(".project-entry:last").append(formattedImage);
-                    }
+                var len = projects.projects[project].images.length;
+                for (var i = 0; i < len; i++) {
+                    var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[project].images[i]);
+                    $(".project-entry:last").append(formattedImage);
                 }
             }
+        }
 }
 
+//call our display functions here to keep things organized
 bio.display();
 projects.display();
 work.display();
@@ -220,6 +227,8 @@ function inName (name) {
     return name[0] +" "+name[1];
 }
 
+//Add a button to internationalize the name
 $('#main').append(internationalizeButton);
 
+//Append the Google Map
 $("#mapDiv").append(googleMap);
