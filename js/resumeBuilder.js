@@ -43,24 +43,12 @@ bio.display = function () {
 
 	if(bio.skills.length > 0) {
 		$("#header").append(HTMLskillsStart);
-		var formattedSkill = HTMLskills.replace("%data%", bio.skills[0]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[1]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[2]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[3]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
-		$("#skills").append(formattedSkill);
-		formattedSkill = HTMLskills.replace("%data%", bio.skills[6]);
-		$("#skills").append(formattedSkill);
+		for (skill in bio.skills) {
+			var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill]);
+			$("#skills").append(formattedSkill);
+		}
 	}
 }
-
-bio.display();
 
 var work = {
 	"jobs": [
@@ -69,7 +57,7 @@ var work = {
 		"title": "Control Desk Clerk, Newport Recreation Center",
 		"location": "Newport, OR",
 		"dates": "May 2014 - Current",
-		"description": "Customer Service. Greet customers and meet their needs as necessary. Manage a cash register. Membership and pass sales. Room reservations and scheduling."
+		"description": "Customer Service. Greet customers and meet their needs as necessary. Manage a cash register. Membership and pass sales. Room reservations and scheduling. General office tasks as needed."
 	},
 	{
 		"employer": "Wake Forest University",
@@ -120,8 +108,6 @@ work.display = function () {
 		$(".work-entry:last").append(formattedDescription);
 	}
 }
-
-work.display()
 
 var education = {
 	"schools": [
@@ -186,9 +172,6 @@ education.display = function (){
 	}
 }
 
-education.display();
-
-
 var projects = {
 	"projects": [
 		{
@@ -200,7 +183,7 @@ var projects = {
 		{
 			"title": "Portfolio",
 			"dates": "2015",
-			"description": "First project for Udacity's Front-End Web Developer Nanodegree. Built from a pdf design mockup. Includes fully responsive images and interactive modals.",
+			"description": "Built from a pdf design mockup. Includes fully responsive customized images and interactive modals.",
 			"images": ["images/portfolio1.jpg", "images/portfolio2.jpg"]
 		}
 	]
@@ -224,7 +207,11 @@ projects.display = function (){
 			}
 }
 
-projects.display()
+bio.display();
+projects.display();
+work.display();
+education.display();
+
 
 //Internationalize name to uppercase last name
 function inName (name) {
