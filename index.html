@@ -23,7 +23,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 
 	<!-- Load the page styles. -->
 	<link href="css/style.css" rel="stylesheet">
-
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 	<!--
 	jQuery is a common JavaScript library for reading and making changes to the
 	Document Object Model (DOM). The DOM is a tree that contains information
@@ -37,8 +37,11 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 	the DOM. jQuery is fast and easy to use, but it doesn't do anything
 	you can't accomplish with vanilla (regular) JavaScript.
 	-->
+	<!-- Google hosted version of jQuery for better caching -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- jQueryui library for menu -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
 	<!-- More on helper.js in the class -->
 	<script src="js/helper.js"></script>
 
@@ -56,10 +59,9 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 <body>
 	<div id="main">
 
-<!-- Menu borrowed from http://designreviver.com/tutorials/jquery-css-example-dropdown-menu/ -->
-<ul id="dropdown">
-	<li class="headlink">
-		<a href="index.html?dropdown">Navigation</a>
+<!-- jQueryui menu -->
+<ul id="menu">
+	<li>Navigation
 		<ul>
 			<li><a href="#header">Bio</a></li>
 			<li><a href="#projects">Projects</a></li>
@@ -69,6 +71,7 @@ need to load. You'll see a lot of <link>s to CSS files for styles and
 		</ul>
 	</li>
 </ul>
+
 <!-- You'll be deleting this line in the course -->
 
 		<!--
