@@ -194,13 +194,13 @@ var projects = {
 		{
 			"title": "Introduction to Programming Final Project",
 			"dates": "2015",
-			"description": "Final project for Udacity's Introduction to Programming Nanodegree. Webapp hosted by Google App Engine. Includes my notes for the course, a comments section, and JavaScript for collapsible navigation.",
+			"description": "Final project for Udacity's Introduction to Programming Nanodegree. Python webapp hosted by Google App Engine. Includes notes for the course, a comments section, and JavaScript for collapsible navigation.",
 			"images": ["images/ipnd1.jpg", "images/ipnd2.jpg"]
 		},
 		{
 			"title": "Portfolio",
 			"dates": "2015",
-			"description": "First project for Udacity's Front-End Web Developer Nanodegree. We were given a pdf design mockup to replicate and customize. Includes customized responsive images and interactive modals.",
+			"description": "First project for Udacity's Front-End Web Developer Nanodegree. Built from a pdf design mockup. Includes fully responsive images and interactive modals.",
 			"images": ["images/portfolio1.jpg", "images/portfolio2.jpg"]
 		}
 	]
@@ -208,7 +208,7 @@ var projects = {
 
 projects.display = function (){
 		for(project in projects.projects) {
-			$("#projects").append(HTMLprojectStart);
+			$("#projects2").append(HTMLprojectStart);
 			var formattedTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
 			$(".project-entry:last").append(formattedTitle);
 			var formattedDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);
