@@ -125,7 +125,7 @@ var education = {
         {
             "name": "Wake Forest University",
             "location": "Winston-Salem, NC, US",
-            "degree": "Graduate Study Towards MA",
+            "degree": "Grad Study Toward MA",
             "majors": ["Communication"],
             "dates": 1994,
             "url": "http://www.wfu.edu/"
