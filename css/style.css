@@ -33,6 +33,7 @@ h6 {
 .ui-menu > li {
 	background: #484848;
 	color: white;
+	padding: 40px;
 }
 
 .ui-menu > li > a:link {
@@ -261,6 +262,11 @@ span {
 	.project-entry {
 		width: 100%;
 	}
+	#map {
+	display: block;
+	height: 90%;
+	margin: 0 5%;
+	}
 }
 
 @media only screen and (max-width: 350px) {
@@ -269,7 +275,12 @@ span {
 		width:100;
 	}
 	#lets-connect {
-		margin-top: 30%;
+		margin-top: 10%;
+	}
+	#map {
+	display: block;
+	height: 80%;
+	margin: 0 5%;
 	}
 }
 
@@ -279,7 +290,12 @@ span {
 		width:100;
 	}
 	#lets-connect {
-		margin-top: 30%;
+		margin-top: 10%;
+	}
+	#map {
+	display: block;
+	height: 80%;
+	margin: 0 5%;
 	}
 }
 @media only screen and (min-width: 750px) {
