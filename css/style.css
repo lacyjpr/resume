@@ -9,11 +9,16 @@ h3,
 h4,
 h5,
 h6 {
-	width: 100%;
 	padding:0;
 	margin:0;
 	font-family: "Roboto", sans-serif;
 }
+
+body,
+div {
+	width: 100%;
+}
+
 
 .clear-fix {
 	overflow: auto;
