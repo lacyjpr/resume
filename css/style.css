@@ -247,13 +247,6 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-	body,
-	div {
-		width:100%;
-	}
-	#header {
-		width: 90%;
-	}
 	#lets-connect {
 		margin-top: 10%;
 	}
@@ -277,13 +270,6 @@ span {
 }
 
 @media only screen and (max-width: 360px) {
-	body,
-	div {
-		width:100%;
-	}
-	#header {
-		width: 90%;
-	}
 	#lets-connect {
 		margin-top: 10%;
 	}
@@ -295,13 +281,6 @@ span {
 }
 
 @media only screen and (max-width: 320px) {
-	body,
-	div {
-		width:100%;
-	}
-	#header {
-		width: 90%;
-	}
 	#lets-connect {
 		margin-top: 10%;
 	}
