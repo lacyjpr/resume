@@ -14,12 +14,6 @@ h6 {
 	font-family: "Roboto", sans-serif;
 }
 
-/*body,
-div {
-	width: 100%;
-}*/
-
-
 .clear-fix {
 	overflow: auto;
 }
@@ -270,6 +264,10 @@ span {
 }
 
 @media only screen and (max-width: 350px) {
+	body,
+	div {
+		width:100;
+	}
 	#lets-connect {
 		margin-top: 30%;
 	}
