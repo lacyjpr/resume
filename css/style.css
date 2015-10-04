@@ -263,9 +263,9 @@ span {
 		width: 100%;
 	}
 	#map {
-	display: block;
-	height: 90%;
-	margin: 0 5%;
+		display: block;
+		height: 90%;
+		margin: 0 5%;
 	}
 }
 
@@ -278,9 +278,9 @@ span {
 		margin-top: 10%;
 	}
 	#map {
-	display: block;
-	height: 80%;
-	margin: 0 5%;
+		display: block;
+		height: 80%;
+		margin: 0 5%;
 	}
 }
 
@@ -293,9 +293,9 @@ span {
 		margin-top: 10%;
 	}
 	#map {
-	display: block;
-	height: 80%;
-	margin: 0 5%;
+		display: block;
+		height: 80%;
+		margin: 0 5%;
 	}
 }
 @media only screen and (min-width: 750px) {
