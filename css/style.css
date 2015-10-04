@@ -57,12 +57,12 @@ h6 {
 
 #map {
 	display: block;
-	height: 100%;
+	height: 90%;
 	margin: 0 5%;
 }
 
 #mapDiv {
-	height: 400px;
+	height: 450px;
 	width: 100%;
 	padding-bottom: 5%;
 }
@@ -258,7 +258,7 @@ span {
 	.project-entry {
 		width: 100%;
 	}
-]
+}
 
 @media only screen and (min-width: 750px) {
 	#skills-h3,
