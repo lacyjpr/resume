@@ -53,9 +53,9 @@ h6 {
 
 #main {
 	background-color: #484848;
-	background: linear-gradient(bottom, #ffffff, #484848);
-	background: -webkit-linear-gradient(bottom, #ffffff, #484848);
-	background: -moz-linear-gradient(bottom, #ffffff, #484848);
+	background: linear-gradient(#484848, #ffffff);
+	background: -webkit-linear-gradient(#484848, #ffffff);
+	background: -moz-linear-gradient(#484848, #ffffff);
 }
 
 #map {
@@ -265,7 +265,7 @@ span {
 
 @media only screen and (max-width: 350px) {
 	#lets-connect {
-		margin-top: 25%;
+		margin-top: 30%;
 	}
 }
 
