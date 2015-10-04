@@ -186,7 +186,7 @@ var projects = {
         {
             "title": "Portfolio",
             "dates": "2015",
-            "description": "Built from a pdf design mockup. Showcases my work with customized photos. Includes fully responsive images and interactive modals.",
+            "description": "Built from a pdf design mockup. Showcases my work using customized photos. Includes fully responsive images and interactive modals.",
             "images": ["images/portfolio1.jpg", "images/portfolio2.jpg"]
         }
     ]
