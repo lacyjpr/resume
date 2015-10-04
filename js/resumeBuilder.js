@@ -180,13 +180,13 @@ var projects = {
         {
             "title": "Introduction to Programming Final Project",
             "dates": "2015",
-            "description": "Final project for Udacity's Introduction to Programming Nanodegree. Webapp hosted by Google App Engine. Includes notes for the course, comments, and JavaScript for collapsible navigation.",
+            "description": "Final project for Udacity's Introduction to Programming Nanodegree. Python driven webapp hosted by Google App Engine. Includes notes for the course, user comments, and JavaScript for collapsible navigation.",
             "images": ["images/ipnd1.jpg", "images/ipnd2.jpg"]
         },
         {
             "title": "Portfolio",
             "dates": "2015",
-            "description": "Built from a pdf design mockup. Has fully responsive customized images and interactive modals.",
+            "description": "Built from a pdf design mockup. Showcases my work with customized photos. Includes fully responsive images and interactive modals.",
             "images": ["images/portfolio1.jpg", "images/portfolio2.jpg"]
         }
     ]
