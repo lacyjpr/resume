@@ -247,7 +247,13 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-	#lets-connect {
+	#lets-connect {	body,
+	div {
+		width:100%;
+	}
+	#header {
+		width: 90%;
+	}
 		margin-top: 10%;
 	}
 	.biopic {
@@ -261,6 +267,11 @@ span {
 	}
 	.project-entry {
 		width: 100%;
+	}
+	.education-entry,
+	.work-entry,
+	.project-entry {
+	padding: 0;
 	}
 	#map {
 		display: block;
@@ -276,11 +287,12 @@ span {
 	#map {
 		display: block;
 		height: 80%;
-		margin: 0 5%;
+		margin: 0 5% 0 5%;
 	}
 }
 
 @media only screen and (max-width: 320px) {
+	}
 	#lets-connect {
 		margin-top: 10%;
 	}
