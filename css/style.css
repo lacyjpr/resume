@@ -53,16 +53,19 @@ h6 {
 
 #main {
 	background-color: #484848;
+	background: linear-gradient(bottom, #ffffff, #484848);
+	background: -webkit-linear-gradient(bottom, #ffffff, #484848);
+	background: -moz-linear-gradient(bottom, #ffffff, #484848);
 }
 
 #map {
 	display: block;
-	height: 90%;
+	height: 100%;
 	margin: 0 5%;
 }
 
 #mapDiv {
-	height: 450px;
+	height: 400px;
 	width: 100%;
 	padding-bottom: 5%;
 }
@@ -257,6 +260,12 @@ span {
 	}
 	.project-entry {
 		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	#lets-connect {
+		margin-top: 25%;
 	}
 }
 
