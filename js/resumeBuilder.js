@@ -125,7 +125,7 @@ var education = {
         {
             "name": "Wake Forest University",
             "location": "Winston-Salem, NC, US",
-            "degree": "Grad Study Toward MA",
+            "degree": "Graduate Study Towards MA",
             "majors": ["Communication"],
             "dates": 1994,
             "url": "http://www.wfu.edu/"
@@ -180,7 +180,7 @@ var projects = {
         {
             "title": "Introduction to Programming Final Project",
             "dates": "2015",
-            "description": "Final project for Udacity's Introduction to Programming Nanodegree. Webapp hosted by Google App Engine. Has notes for the course, comments, and JavaScript for collapsible navigation.",
+            "description": "Final project for Udacity's Introduction to Programming Nanodegree. Webapp hosted by Google App Engine. Includes notes for the course, comments, and JavaScript for collapsible navigation.",
             "images": ["images/ipnd1.jpg", "images/ipnd2.jpg"]
         },
         {
