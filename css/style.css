@@ -121,6 +121,7 @@ h5 {
 	color: #999;
 	line-height: 16px;
 	float: right;
+	margin: 0 10px 0 0;
 
 }
 
@@ -247,13 +248,7 @@ span {
 }
 
 @media only screen and (max-width: 750px) {
-	#lets-connect {	body,
-	div {
-		width:100%;
-	}
-	#header {
-		width: 90%;
-	}
+	#lets-connect {
 		margin-top: 10%;
 	}
 	.biopic {
@@ -292,7 +287,6 @@ span {
 }
 
 @media only screen and (max-width: 320px) {
-	}
 	#lets-connect {
 		margin-top: 10%;
 	}
