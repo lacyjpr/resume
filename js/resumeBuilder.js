@@ -66,7 +66,7 @@ var work = {
         "title": "Debate Coach",
         "location": "Winston-Salem, NC",
         "dates": "June 2010-November 2011, August 2001-July 2009",
-        "description": "Coach, travel and administer a team of 20 debaters travelling to 12 tournaments annually. Lead technology initiatives to transition to paperless debate, create a nationwide shared electronic scouting system and support squad technology resources. Host and plan annual debate tournaments with 400-1000 attendees. Supervise a team of six assistant coaches."
+        "description": "Coach, travel and administer a team of 20 debaters traveling to 12 tournaments annually. Lead technology initiatives to transition to paperless debate, create a nationwide shared electronic scouting system and support squad technology resources. Host and plan annual debate tournaments with 400-1000 attendees. Supervise a team of six assistant coaches."
     },
     {
         "employer": "Wake Forest University",
@@ -186,7 +186,7 @@ var projects = {
         {
             "title": "Portfolio",
             "dates": "2015",
-            "description": "First project for Udacity's Front-End Web Developer Nanodegree. Built from a pdf design mockup. Showcases my work using customized photos. Includes fully responsive images and interactive modals.",
+            "description": "First project for Udacity's Front-End Web Developer Nanodegree. Built from a pdf design mock up. Showcases my work using customized photos. Includes fully responsive images and interactive modals.",
             "images": ["images/portfolio1.jpg", "images/portfolio2.jpg"]
         }
     ]
